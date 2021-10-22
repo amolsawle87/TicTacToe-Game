@@ -11,7 +11,7 @@ function changeTurn(){
 }
 
 function refresh(){
-    return(window.location.reload());
+    return(location.assign(self.location.href));
 
 
 }
